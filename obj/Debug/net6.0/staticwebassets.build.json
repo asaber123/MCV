@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "rxoic3WjXOJPFmaXuwBeO6BEzrkAwrNV6KEWpgEvzt4=",
+  "Source": "MCV",
+  "BasePath": "_content/MCV",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MCV/wwwroot",
+      "Source": "MCV",
+      "ContentRoot": "/Users/asaberglund/Desktop/MCV/wwwroot/",
+      "BasePath": "_content/MCV",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/asaberglund/Desktop/MCV/wwwroot/css/style.css",
+      "SourceId": "MCV",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asaberglund/Desktop/MCV/wwwroot/",
+      "BasePath": "_content/MCV",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/asaberglund/Desktop/MCV/wwwroot/js/main.js",
+      "SourceId": "MCV",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asaberglund/Desktop/MCV/wwwroot/",
+      "BasePath": "_content/MCV",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/main.js"
+    }
+  ]
+}
