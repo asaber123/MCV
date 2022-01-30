@@ -16323,8 +16323,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/asaberglund/Desktop/MCV/Views/Home/Test.csHtml",
-      "TargetPath": "Views\\Home\\Test.csHtml",
+      "FilePath": "/Users/asaberglund/Desktop/MCV/Views/Home/Test.cshtml",
+      "TargetPath": "Views\\Home\\Test.cshtml",
       "FileKind": "mvc"
     }
   ],

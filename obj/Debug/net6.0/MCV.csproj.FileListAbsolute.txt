@@ -22,3 +22,5 @@
 /Users/asaberglund/Desktop/MCV/obj/Debug/net6.0/ref/MCV.dll
 /Users/asaberglund/Desktop/MCV/obj/Debug/net6.0/MCV.pdb
 /Users/asaberglund/Desktop/MCV/obj/Debug/net6.0/MCV.genruntimeconfig.cache
+/Users/asaberglund/Desktop/MCV/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/asaberglund/Desktop/MCV/obj/Debug/net6.0/MCV.csproj.CopyComplete

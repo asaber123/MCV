@@ -1,7 +1,67 @@
 @model MVC.Models.Item
+@model MVC.Models.ViewModel
+
 @{
     ViewData["Title"] = "Test";
 }
 <h1>Test</h1>
 
-<p>Name: @Model.Name</p>
+<p>List from viewData:</p>
+@{
+    IEnumerable<MVC.Models.Course> courses = (IEnumerable<MVC.Models.Course>)ViewData["Courses_in_list"];
+}
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Course name</th>
+        <th>Progression</th>
+        <th>Syllabus</th>
+    </tr>
+    @foreach(Course course in courses){
+    <tr>
+        <td>@course.Id</td>
+        <td>@course.CourseName</td>
+        <td>@course.Progression</td>
+        <td>@course.Syllabus</td>
+    </tr>
+    }
+</table>
+
+<p>Courses from a ViewBag</p>
+@{
+    IEnumerable<MVC.Models.Course> courses2 = (IEnumerable<MVC.Models.Course>)ViewBag.courses;
+}
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Course name</th>
+        <th>Progression</th>
+        <th>Syllabus</th>
+    </tr>
+    @foreach(Course course in courses2){
+    <tr>
+        <td>@course.Id</td>
+        <td>@course.CourseName</td>
+        <td>@course.Progression</td>
+        <td>@course.Syllabus</td>
+    </tr>
+    }
+</table>
+
+@* <p>Courses from Model</p>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Course name</th>
+        <th>Progression</th>
+        <th>Syllabus</th>
+    </tr>
+    @foreach(MVC.Models.Course course in Model.CourseList){
+    <tr>
+        <td>@course.Id</td>
+        <td>@course.CourseName</td>
+        <td>@course.Progression</td>
+        <td>@course.Syllabus</td>
+    </tr>
+    }
+</table> *@

@@ -24,6 +24,7 @@ public class HomeController : Controller
 
     public IActionResult Test()
     {
+        //List from viewData
         List<Course> courses = new List<Course>
             {
                 new Course { Id = 1, CourseName = "Webbutveckling 1", Progression = "A", Syllabus = "Link" },
@@ -37,23 +38,24 @@ public class HomeController : Controller
                 new Course (1, "Webbutveckling 1", "A", "Link" ),
                 new Course (2, "Webbutveckling 2", "B", "Link" )
             };
-        ViewBag.Course = courses2;
+        ViewBag.courses = courses2;
 
 
-        //List in ViewBag
-        List<Course> courses3 = new List<Course>
-            {
-                new Course (1, "Webbutveckling 1", "A", "Link" ),
-                new Course (2, "Webbutveckling 2", "B", "Link" )
-            };
+    //     //List in Model
+    //     List<Course> courses3 = new List<Course>
+    //         {
+    //             new Course (1, "Webbutveckling 1", "A", "Link" ),
+    //             new Course (2, "Webbutveckling 2", "B", "Link" )
+    //         };
 
-        ViewModel vm = new ViewModel
-        {
-            CourseList = Courses3
-        };
-        return View(vm);
+    //     ViewModel vm = new ViewModel
+    //     {
+    //         CourseList = courses3
+    //     };
+    //    return View(vm);
 
-        Item myitem = new Item();
-        return View(myitem);
+        // Item myitem = new Item();
+        // return View(myitem);
+        return View();
     }
 }

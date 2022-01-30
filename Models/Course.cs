@@ -18,9 +18,10 @@ public class Course
     public string? Progression { get; set; }
     public string? Syllabus { get; set; }
 
-    public class ViewModel{
-        public IEnumerable<Course> CourseList {get; set;}
-    }
+
 
 
 }
+    public class ViewModel{
+        public IEnumerable<Course> CourseList {get; set;}
+    }
